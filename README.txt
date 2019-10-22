@@ -46,6 +46,7 @@ e.g.
 1. Upload `clico.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Set data-clico-btn="<?php the_ID(); ?>" attribute to buttons and data-clico-value to span where will displays the clicks amount.
 
 == Frequently Asked Questions ==
 
